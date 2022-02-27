@@ -1,10 +1,10 @@
 import React from 'react'
-import '/css/NavbarTop.css'
+import '../../../css/NavbarTop.css'
 
 function NavbarTop() {
   return (
-    <div className='header__top'>
-      <nav className='header__menu'>
+    <div className='navbarTop__flex'>
+      <nav className='navbarTop__menu'>
         <ul className='menu__list'>
           <li className='menu__item'>About</li>
           <li className='menu__item'>Reviews</li>
@@ -14,7 +14,7 @@ function NavbarTop() {
           <li className='menu__item'>Installment plan</li>
         </ul>
       </nav>
-      <form className='header__form'>
+      <form className='navbarTop__form'>
         <div className='form__block'>
           <input type='search' className='form__input' />
           <button type='submit'>
