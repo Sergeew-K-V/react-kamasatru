@@ -1,10 +1,11 @@
 import './App.css'
-import Navbar from './Components/Navbar/Navbar.js'
+import Header from './Components/Header/Header.js'
 
 // https://classic-mebel.com/
+// https://open.cruip.com/#0
 
 function App() {
-  return <Navbar></Navbar>
+  return <Header></Header>
 }
 
 export default App
