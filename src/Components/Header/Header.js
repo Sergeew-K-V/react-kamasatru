@@ -15,7 +15,7 @@ function Header() {
           <nav className='navbar__navigation navbar__item'>
             <a className='navbar__link navigation__item'>Documentation</a>
             <button className='navbar__btn navigation__item'>
-              <p className='btn__content'>Sign up</p>
+              <a className='btn__content'>Sign up</a>
             </button>
           </nav>
         </div>

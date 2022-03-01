@@ -1,3 +1,9 @@
+.navbar {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+}
+
 .navbar__flex {
   min-height: 80px;
   display: -webkit-box;
@@ -34,7 +40,13 @@
   background-color: #6163ff;
   border-radius: 3px;
   margin-left: 32px;
-  font-weight: 700;
+}
+
+.navbar__btn a {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
 }
 
 .container {

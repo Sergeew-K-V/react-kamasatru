@@ -1,7 +1,12 @@
 import react from 'react'
+import LandingTemplate from './LandingTemplate/LandingTemplate'
 
 function Main() {
-  return <div></div>
+  return (
+    <main>
+      <LandingTemplate></LandingTemplate>
+    </main>
+  )
 }
 
 export default Main
