@@ -1,6 +1,7 @@
 .landing {
   padding-top: 80px;
   text-align: center;
+  position: relative;
 }
 
 .landing__block {
@@ -59,6 +60,22 @@
 .landing__video img {
   width: 896px;
   height: 504px;
+}
+
+.landing::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  left: 50%;
+  height: 286px;
+  background-image: url(https://open.cruip.com/static/media/illustration-section-01.ea694903.svg);
+  top: 0;
+  background-position: top;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .container-small {

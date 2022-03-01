@@ -40,6 +40,7 @@ function LandingTemplate() {
             <a
               href='#0'
               data-video='https://player.vimeo.com/video/174002812'
+              aria-controls='video-modal'
               className='landing__video'
             >
               <img
