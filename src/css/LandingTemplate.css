@@ -46,6 +46,20 @@
   background-color: #25282c;
 }
 
+.landing__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing__video img {
+  width: 896px;
+  height: 504px;
+}
+
 .container-small {
   padding: 0 24px;
   margin: 0 auto;

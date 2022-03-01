@@ -46,6 +46,14 @@
   }
 
   &__bottom {
+    display: flex;
+    justify-content: center;
+  }
+  &__video {
+  }
+  &__video img {
+    width: 896px;
+    height: 504px;
   }
 }
 .container-small {

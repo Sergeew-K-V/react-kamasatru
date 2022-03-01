@@ -18,17 +18,36 @@ function LandingTemplate() {
               </p>
               <div className='landing__btns'>
                 <div className='landing__btn'>
-                  <a href='#' className='landing__btn_get-started'>
+                  <a
+                    href='https://drive.google.com/file/d/1tV-jo-2W6nw5ea2DFEE5YLdg37tWnWKv/view?usp=sharing'
+                    target='_blank'
+                    className='landing__btn_get-started'
+                  >
                     Get started
                   </a>
-                  <a href='#' className='landing__btn_view-on-github'>
+                  <a
+                    href='https://github.com/Sergeew-K-V'
+                    target='_blank'
+                    className='landing__btn_view-on-github'
+                  >
                     View on Github
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className='landing__bottom'></div>
+          <div className='landing__bottom'>
+            <a
+              href='#0'
+              data-video='https://player.vimeo.com/video/174002812'
+              className='landing__video'
+            >
+              <img
+                src='https://open.cruip.com/static/media/video-placeholder.a622fc5d.jpg'
+                alt=''
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>
