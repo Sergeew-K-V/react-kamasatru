@@ -1,1 +1,70 @@
-/* No CSS */
+.landing {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.landing__block {
+  padding: 80px 0;
+}
+
+.landing__text {
+  margin-bottom: 32px;
+}
+
+.landing__btn a {
+  text-decoration: none;
+  color: #eceded;
+  margin: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 11px 31px;
+  height: 48px;
+}
+
+.landing__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: -8px;
+}
+
+.landing__btn_get-started {
+  min-height: 50px;
+  min-width: 150px;
+  background-color: #5658dd;
+}
+
+.landing__btn_view-on-github {
+  min-width: 180px;
+  min-height: 50px;
+  background-color: #25282c;
+}
+
+.container-small {
+  padding: 0 24px;
+  margin: 0 auto;
+  max-width: 896px;
+}
+
+.title-big {
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #eceded;
+  font-size: 52px;
+  line-height: 62px;
+}
+
+.span-bold {
+  color: #5658dd;
+}
+
+.container-smallest {
+  max-width: 620px;
+  margin: 0 auto;
+}

@@ -3,7 +3,7 @@ import LandingTemplate from './LandingTemplate/LandingTemplate'
 
 function Main() {
   return (
-    <main>
+    <main className='main-content'>
       <LandingTemplate></LandingTemplate>
     </main>
   )

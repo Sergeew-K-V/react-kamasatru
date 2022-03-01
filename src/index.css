@@ -1,9 +1,12 @@
 .wrapper {
-  position: relative;
   min-height: 100vh;
-  color: gray;
   background-color: #151719;
-  font-family: 'Inter', sans-serif;
   font-size: 1rem;
+}
+body {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
   color: #9ca9b3;
+  font-family: 'Inter', sans-serif;
 }
