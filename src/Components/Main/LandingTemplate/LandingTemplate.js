@@ -13,8 +13,8 @@ function LandingTemplate() {
             </h1>
             <div className='container-smallest'>
               <p className='landing__text text'>
-                Our landing page template works on all devices, so you only have to set it up once,
-                and get beautiful results forever.
+                Our landing page template works on all devices, so you only have
+                to set it up once, and get beautiful results forever.
               </p>
               <div className='landing__btns'>
                 <div className='landing__btn'>
@@ -44,7 +44,7 @@ function LandingTemplate() {
             >
               <img
                 src='https://open.cruip.com/static/media/video-placeholder.a622fc5d.jpg'
-                alt=''
+                alt='clip'
               />
             </a>
           </div>
