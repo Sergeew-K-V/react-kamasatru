@@ -1,20 +1,26 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faDoorClosed } from '@fortawesome/free-solid-svg-icons'
+import navbarLogo from '../../img/navbarLogo.svg'
+import '../../css/Header.css'
 
 function Header() {
   return (
-    <div className='content'>
-      <header className='navbar'>
+    <header className='navbar'>
+      <div className='container'>
         <div className='navbar__flex'>
-          <img src='' alt='icon' className='navbar__logo' />
-          <span className='navbar__linkDoc'>Documentation</span>
-          <button className='navbar__btn'>
-            Sign up <FontAwesomeIcon icon={faSearch} />
-          </button>
+          <a href='#' className='navbar__link_logo navbar__item'>
+            <img src={navbarLogo} alt='icon' className='navbar__logo' />
+          </a>
+          <nav className='navbar__navigation navbar__item'>
+            <a className='navbar__link navigation__item'>Documentation</a>
+            <button className='navbar__btn navigation__item'>
+              <p className='btn__content'>Sign up</p>
+            </button>
+          </nav>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
   )
 }
 
