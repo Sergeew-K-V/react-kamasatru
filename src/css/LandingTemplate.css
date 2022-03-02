@@ -60,6 +60,9 @@
 .landing__video img {
   width: 896px;
   height: 504px;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .landing::after {

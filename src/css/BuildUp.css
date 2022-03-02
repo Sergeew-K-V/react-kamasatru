@@ -1,1 +1,26 @@
-/* No CSS */
+.build-up__top {
+  text-align: center;
+}
+
+.build-up__title {
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 16px;
+}
+
+.build-up__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title-middle {
+  color: #eceded;
+  font-size: 44px;
+}

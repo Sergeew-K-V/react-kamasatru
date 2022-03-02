@@ -1,0 +1,25 @@
+.build-up {
+  &__block {
+  }
+
+  &__top {
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 16px;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.title-middle {
+  color: #eceded;
+  font-size: 44px;
+}
