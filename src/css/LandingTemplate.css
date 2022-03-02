@@ -80,12 +80,6 @@
   background-size: auto;
 }
 
-.container-small {
-  padding: 0 24px;
-  margin: 0 auto;
-  max-width: 896px;
-}
-
 .title-big {
   font-weight: 800;
   margin-bottom: 16px;
@@ -96,9 +90,4 @@
 
 .span-bold {
   color: #5658dd;
-}
-
-.container-smallest {
-  max-width: 620px;
-  margin: 0 auto;
 }
