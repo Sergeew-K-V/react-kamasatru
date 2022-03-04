@@ -1,5 +1,6 @@
 .build-up {
   &__block {
+    padding-bottom: 80px;
   }
 
   &__top {
@@ -18,8 +19,4 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-}
-.title-middle {
-  color: #eceded;
-  font-size: 44px;
 }

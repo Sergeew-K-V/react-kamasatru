@@ -1,1 +1,48 @@
-/* No CSS */
+.workflow {
+  position: relative;
+}
+
+.workflow__block {
+  padding: 80px 0;
+  position: relative;
+}
+
+.workflow__block::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+  background: #25282c;
+}
+
+.workflow__top {
+  text-align: center;
+  padding-bottom: 92px;
+}
+
+.workflow__title {
+  margin-bottom: 16px;
+  font-weight: 800;
+}
+
+.workflow__bottom {
+  margin: -40px 0;
+}
+
+.workflow::after {
+  height: 253px;
+  background-image: url(/src/img/Workflow/workflow_bg.svg);
+  background-position: 50%;
+  top: calc(50% + 30px);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  content: '';
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  left: 50%;
+}
