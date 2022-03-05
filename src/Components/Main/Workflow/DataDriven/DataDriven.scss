@@ -8,43 +8,28 @@
 
   &__left {
     &_zero {
-      display: block;
+      flex: 1 1 528px;
     }
 
     &_notzero {
+      flex: 1 1 50%;
       margin-right: 64px;
-      display: block;
     }
     &_zero img {
-      display: block;
       width: 100%;
-      width: 528px;
-    }
-
-    &_notzero img {
-      display: block;
-      width: 100%;
-      width: 528px;
     }
   }
   &__right {
     &_zero {
+      flex: 1 1 50%;
       margin-left: 64px;
-      display: block;
     }
 
     &_notzero {
-      display: block;
+      flex: 1 1 528px;
     }
-    &_zero img {
-      width: 100%;
-      width: 528px;
-    }
-
     &_notzero img {
-      display: block;
       width: 100%;
-      width: 528px;
     }
   }
 }
