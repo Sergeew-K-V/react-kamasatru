@@ -12,7 +12,7 @@
     }
 
     &_notzero {
-      flex: 1 1 50%;
+      flex: 0 0 40%;
       margin-right: 64px;
     }
     &_zero img {
@@ -21,7 +21,7 @@
   }
   &__right {
     &_zero {
-      flex: 1 1 50%;
+      flex: 0 0 40%;
       margin-left: 64px;
     }
 

@@ -21,9 +21,9 @@
 }
 
 .datadriven__left_notzero {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50%;
-          flex: 1 1 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
   margin-right: 64px;
 }
 
@@ -32,9 +32,9 @@
 }
 
 .datadriven__right_zero {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50%;
-          flex: 1 1 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
   margin-left: 64px;
 }
 
