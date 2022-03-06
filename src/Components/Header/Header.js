@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDoorClosed } from '@fortawesome/free-solid-svg-icons'
-import navbarLogo from '../../img/navbarLogo.svg'
+import navbarLogo from '../../img/Header/navbarLogo.svg'
 import '../../css/Header.css'
 
 function Header() {

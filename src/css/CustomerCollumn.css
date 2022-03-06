@@ -1,1 +1,79 @@
-/* No CSS */
+.customer-collumn {
+  -ms-flex-preferred-size: 365px;
+      flex-basis: 365px;
+  max-width: 365px;
+  padding: 12px;
+}
+
+.customer-collumn__block {
+  padding: 24px 32px;
+  background: #25282c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.customer-collumn__top {
+  position: relative;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+}
+
+.customer-collumn__bottom {
+  position: relative;
+  margin-top: 32px;
+  padding-top: 20px;
+}
+
+.customer-collumn__bottom::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  display: block;
+  background: #33363a;
+}
+
+.customer-collumn__top::before {
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 18px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  background-image: url(/src/img/Customer/customer-collumn.svg);
+  background-repeat: no-repeat;
+}
+
+.green {
+  color: #1cb68b;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.bottom__text {
+  color: #eceded;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.color-default {
+  color: #717d86;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}

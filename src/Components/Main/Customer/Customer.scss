@@ -1,0 +1,49 @@
+.customer {
+  &__block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 1px;
+    background: #25282c;
+  }
+  &__block {
+    position: relative;
+
+    padding: 80px 0;
+  }
+}
+.block {
+  &__top {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -12px;
+    margin-left: -12px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+  }
+}
+
+.top {
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__text {
+  }
+}
+// position: absolute;
+//     content: '';
+//     width: 100%;
+//     height: 1px;
+//     top: 0;
+//     left: 0;
+//     background: #25282c;
