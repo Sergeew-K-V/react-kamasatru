@@ -1,0 +1,66 @@
+.preview-form__block {
+  padding: 64px 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #5658dd;
+  background-image: url(/src/img/form.svg);
+  background-position: 100% 100%;
+}
+
+.preview-form__slogan {
+  margin-right: 48px;
+}
+
+.preview-form__slogan h3 {
+  color: #eceded;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.3px;
+}
+
+.action {
+  position: relative;
+}
+
+.action__label {
+  position: absolute;
+}
+
+.action__input {
+  position: relative;
+  background-color: #eceded;
+  border: 1px solid #151719;
+  display: block;
+  padding: 11px 46px 11px 15px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  height: 48px;
+  color: #151719;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: transparent;
+  border-radius: 2px;
+  min-width: 280px;
+  width: 100%;
+}
+
+.action__input input {
+  font-size: 16px;
+  background-color: #eceded;
+}
+
+.icon {
+  position: absolute;
+  cursor: pointer;
+  width: 16px;
+  height: auto;
+  color: #5658dd;
+}

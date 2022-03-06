@@ -1,0 +1,59 @@
+.preview-form {
+  &__block {
+    padding: 64px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5658dd;
+    background-image: url(/src/img/form.svg);
+    background-position: 100% 100%;
+  }
+
+  &__slogan {
+    margin-right: 48px;
+  }
+  &__slogan h3 {
+    color: #eceded;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.3px;
+  }
+
+  &__action {
+  }
+}
+.action {
+  position: relative;
+  &__label {
+    position: absolute;
+  }
+  &__input {
+    position: relative;
+    background-color: #eceded;
+    border: 1px solid #151719;
+    display: block;
+    padding: 11px 46px 11px 15px;
+
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    height: 48px;
+    color: #151719;
+    box-shadow: none;
+    border-color: transparent;
+    border-radius: 2px;
+    min-width: 280px;
+    width: 100%;
+  }
+  &__input input {
+    font-size: 16px;
+    background-color: #eceded;
+  }
+}
+.icon {
+  position: absolute;
+  cursor: pointer;
+  width: 16px;
+  height: auto;
+  color: #5658dd;
+}

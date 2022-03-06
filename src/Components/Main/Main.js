@@ -2,6 +2,7 @@ import react from 'react'
 import BuildUp from './BuildUp/BuildUp'
 import Customer from './Customer/Customer'
 import LandingTemplate from './LandingTemplate/LandingTemplate'
+import PreviewForm from './PreviewForm/PreviewForm'
 import Workflow from './Workflow/Workflow'
 
 function Main() {
@@ -11,6 +12,7 @@ function Main() {
       <BuildUp></BuildUp>
       <Workflow></Workflow>
       <Customer></Customer>
+      <PreviewForm></PreviewForm>
     </main>
   )
 }
