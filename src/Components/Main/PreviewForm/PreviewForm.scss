@@ -24,17 +24,14 @@
   }
 }
 .action {
-  position: relative;
   &__label {
-    position: absolute;
   }
   &__input {
     position: relative;
     background-color: #eceded;
     border: 1px solid #151719;
-    display: block;
     padding: 11px 46px 11px 15px;
-
+    display: block;
     line-height: 24px;
     letter-spacing: -0.1px;
     height: 48px;
@@ -51,9 +48,19 @@
   }
 }
 .icon {
+  // position: absolute;
+  // margin: 0 auto;
+  // width: 16px;
+  // height: auto;
   position: absolute;
-  cursor: pointer;
-  width: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
   height: auto;
+  max-width: 100%;
+  right: 15px;
+  width: 16px;
+
+  cursor: pointer;
   color: #5658dd;
 }
