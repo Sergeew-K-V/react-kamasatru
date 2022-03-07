@@ -7,6 +7,7 @@
     background-color: #5658dd;
     background-image: url(/src/img/form.svg);
     background-position: 100% 100%;
+    background-repeat: no-repeat;
   }
 
   &__slogan {
@@ -48,18 +49,19 @@
   }
 }
 .icon {
-  // position: absolute;
-  // margin: 0 auto;
-  // width: 16px;
-  // height: auto;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  display: block;
-  height: auto;
-  max-width: 100%;
-  right: 15px;
   width: 16px;
+  height: auto;
+  top: 50%;
+  transform: translate(50%, -50%);
+  // position: absolute;
+  // top: 50%;
+  // transform: translateY(-50%);
+  // display: block;
+  // height: auto;
+  // max-width: 100%;
+  // right: 15px;
+  // width: 16px;
 
   cursor: pointer;
   color: #5658dd;
