@@ -1,3 +1,84 @@
-.icon {
-  color: #5658dd;
+.footer__block {
+  padding: 64px 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.flex__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 12px;
+}
+
+.top__brand img {
+  width: 32px;
+  height: 32px;
+}
+
+.top__social {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.top__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: -16px;
+  margin-left: -16px;
+}
+
+.top__item {
+  padding: 0 8px;
+}
+
+.top__item a {
+  padding: 8px;
+}
+
+.icons {
+  color: #6163ff;
+  height: auto;
+}
+
+.bottom__nickname {
+  color: #eceded;
+}
+
+.bottom__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item a {
+  text-decoration: none;
+  color: #9ca9b3;
+  padding: 0 12px;
 }

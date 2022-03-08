@@ -1,3 +1,77 @@
-.icon {
-  color: #5658dd;
+.footer {
+  &__block {
+    padding: 64px 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+.container {
+}
+.flex {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    align-items: center;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+  }
+}
+.top {
+  &__brand {
+  }
+  &__brand img {
+    width: 32px;
+    height: 32px;
+  }
+
+  &__social {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -16px;
+    margin-left: -16px;
+  }
+
+  &__item {
+    padding: 0 8px;
+  }
+  &__item a {
+    padding: 8px;
+  }
+}
+.icons {
+  color: #6163ff;
+  height: auto;
+}
+.bottom {
+  &__copyright {
+  }
+
+  &__nickname {
+    color: #eceded;
+  }
+
+  &__nav ul {
+    display: flex;
+  }
+}
+.nav {
+  &__item {
+  }
+  &__item a {
+    text-decoration: none;
+    color: #9ca9b3;
+    padding: 0 12px;
+  }
 }
