@@ -1,6 +1,5 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {} from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import '../../css/Footer.css'
 import brand from '../../img/Header/navbarLogo.svg'
@@ -17,7 +16,7 @@ function Footer() {
             <div className='top__social'>
               <ul className='top__icons'>
                 <li className='top__item'>
-                  <a href=''>
+                  <a href='/#0'>
                     <FontAwesomeIcon
                       className='icons'
                       width={'16px'}
@@ -27,7 +26,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className='top__item'>
-                  <a href=''>
+                  <a href='/#0'>
                     <FontAwesomeIcon
                       className='icons'
                       width={'16px'}
@@ -37,7 +36,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className='top__item'>
-                  <a href=''>
+                  <a href='/#0'>
                     <FontAwesomeIcon
                       className='icons'
                       width={'16px'}

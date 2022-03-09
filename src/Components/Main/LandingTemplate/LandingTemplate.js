@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../../css/LandingTemplate.css'
+import videoMacTyping from '../../../video/TypingOnAMacbook.mp4'
 
 function LandingTemplate() {
   return (
@@ -37,17 +38,27 @@ function LandingTemplate() {
             </div>
           </div>
           <div className='landing__bottom'>
-            <a
-              href='#0'
-              data-video='https://player.vimeo.com/video/174002812'
-              aria-controls='video-modal'
+            <div className='landing__block'>
+              <video
+                className='landing__video'
+                src={videoMacTyping}
+                autoPlay
+                controls
+                loop
+                muted
+              ></video>
+            </div>
+
+            {/* <a
+              href='https://player.vimeo.com/video/174002812'
+              target='_blank'
               className='landing__video'
             >
               <img
                 src='https://open.cruip.com/static/media/video-placeholder.a622fc5d.jpg'
                 alt='clip'
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
