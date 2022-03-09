@@ -20,8 +20,8 @@ function Footer() {
                   <a href=''>
                     <FontAwesomeIcon
                       className='icons'
-                      width={'24px'}
-                      height={'24px'}
+                      width={'16px'}
+                      height={'16px'}
                       icon={faFacebookF}
                     />
                   </a>
@@ -30,8 +30,8 @@ function Footer() {
                   <a href=''>
                     <FontAwesomeIcon
                       className='icons'
-                      width={'24px'}
-                      height={'24px'}
+                      width={'16px'}
+                      height={'16px'}
                       icon={faTwitter}
                     />
                   </a>
@@ -40,8 +40,8 @@ function Footer() {
                   <a href=''>
                     <FontAwesomeIcon
                       className='icons'
-                      width={'24px'}
-                      height={'24px'}
+                      width={'16px'}
+                      height={'16px'}
                       icon={faInstagram}
                     />
                   </a>
@@ -56,18 +56,18 @@ function Footer() {
             <nav className='bottom__nav'>
               <ul>
                 <li className='nav__item'>
-                  <a href='' className='active'>
+                  <a href='/#0' className='active'>
                     Contact
                   </a>
                 </li>
                 <li className='nav__item'>
-                  <a href=''>About us</a>
+                  <a href='/#0'>About us</a>
                 </li>
                 <li className='nav__item'>
-                  <a href=''>FAQ's</a>
+                  <a href='/#0'>FAQ's</a>
                 </li>
                 <li className='nav__item'>
-                  <a href=''>Support</a>
+                  <a href='/#0'>Support</a>
                 </li>
               </ul>
             </nav>

@@ -73,5 +73,12 @@
     text-decoration: none;
     color: #9ca9b3;
     padding: 0 12px;
+    transition: color 0.2s ease;
   }
+  &__item a:hover {
+    color: #eceded;
+  }
+  // &__item .active {
+  //   color: #eceded;
+  // }
 }

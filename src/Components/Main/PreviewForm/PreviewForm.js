@@ -9,7 +9,7 @@ function PreviewForm() {
       <div className='container'>
         <div className='preview-form__block'>
           <div className='preview-form__slogan'>
-            <h3>For previewing layounts and visual?</h3>
+            <h3>For previewing layouts and visual?</h3>
           </div>
           <div className='preview-form__action'>
             <label className='action__label'></label>
