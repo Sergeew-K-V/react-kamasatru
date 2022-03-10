@@ -75,6 +75,9 @@
     padding: 0 12px;
     transition: color 0.2s ease;
   }
+  &__item a:last-child {
+    padding-right: 0px;
+  }
   &__item a:hover {
     color: #eceded;
   }
