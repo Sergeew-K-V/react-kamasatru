@@ -78,7 +78,7 @@
   &__item a:hover {
     color: #eceded;
   }
-  // &__item .active {
-  //   color: #eceded;
-  // }
+  &__item a.active {
+    color: #eceded;
+  }
 }

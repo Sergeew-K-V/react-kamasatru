@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import '../../css/Footer.css'
 import brand from '../../img/Header/navbarLogo.svg'
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -16,7 +17,7 @@ function Footer() {
             <div className='top__social'>
               <ul className='top__icons'>
                 <li className='top__item'>
-                  <a href='/#0'>
+                  <a href='/#1'>
                     <FontAwesomeIcon
                       className='icons'
                       width={'16px'}
@@ -26,7 +27,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className='top__item'>
-                  <a href='/#0'>
+                  <a href='/#2'>
                     <FontAwesomeIcon
                       className='icons'
                       width={'16px'}
@@ -36,7 +37,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className='top__item'>
-                  <a href='/#0'>
+                  <a href='/#3'>
                     <FontAwesomeIcon
                       className='icons'
                       width={'16px'}
@@ -55,18 +56,30 @@ function Footer() {
             <nav className='bottom__nav'>
               <ul>
                 <li className='nav__item'>
-                  <a href='/#0' className='active'>
+                  <NavLink
+                    to='/contact'
+                    className={(navData) => (navData.isActive ? 'active' : '')}
+                  >
                     Contact
-                  </a>
+                  </NavLink>
                 </li>
                 <li className='nav__item'>
-                  <a href='/#0'>About us</a>
+                  <NavLink to='/about' className={(navData) => (navData.isActive ? 'active' : '')}>
+                    About us
+                  </NavLink>
                 </li>
                 <li className='nav__item'>
-                  <a href='/#0'>FAQ's</a>
+                  <NavLink to='/faq' className={(navData) => (navData.isActive ? 'active' : '')}>
+                    FAQ's
+                  </NavLink>
                 </li>
                 <li className='nav__item'>
-                  <a href='/#0'>Support</a>
+                  <NavLink
+                    to='/support'
+                    className={(navData) => (navData.isActive ? 'active' : '')}
+                  >
+                    Support
+                  </NavLink>
                 </li>
               </ul>
             </nav>

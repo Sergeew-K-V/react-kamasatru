@@ -88,3 +88,7 @@
 .nav__item a:hover {
   color: #eceded;
 }
+
+.nav__item a.active {
+  color: #eceded;
+}
