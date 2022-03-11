@@ -15,7 +15,7 @@ function Header() {
             <img src={navbarLogo} alt='icon' className='navbar__logo' />
           </a>
           <button
-            className='navbar__btn-burger'
+            className={navbarActive ? 'navbar__btn-burger active' : 'navbar__btn-burger'}
             onClick={() => {
               setNavbarActive(!navbarActive)
             }}
