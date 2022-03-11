@@ -85,6 +85,10 @@
   transition: color 0.2s ease;
 }
 
+.nav__item a:last-child {
+  padding-right: 0px;
+}
+
 .nav__item a:hover {
   color: #eceded;
 }
