@@ -58,8 +58,8 @@
 }
 
 .landing__block {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .landing__video {
@@ -92,4 +92,14 @@
 
 .span-bold {
   color: #5658dd;
+}
+
+@media (max-width: 641px) {
+  .landing__block {
+    padding: 48px 0;
+  }
+  .landing__title {
+    font-size: 44px;
+    line-height: 54px;
+  }
 }
