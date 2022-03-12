@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-kamasatru/static/css/main.de95e6f3.css",
-    "main.js": "/react-kamasatru/static/js/main.811dae4d.js",
+    "main.css": "/react-kamasatru/static/css/main.f97d00cd.css",
+    "main.js": "/react-kamasatru/static/js/main.16a22f9f.js",
     "static/js/787.5c52664e.chunk.js": "/react-kamasatru/static/js/787.5c52664e.chunk.js",
     "static/media/TypingOnAMacbook.mp4": "/react-kamasatru/static/media/TypingOnAMacbook.687ad7e8575cd6211c44.mp4",
     "static/media/1section.svg": "/react-kamasatru/static/media/1section.980998916c8e9369ffab.svg",
@@ -18,12 +18,12 @@
     "static/media/BuildUp-icon4.svg": "/react-kamasatru/static/media/BuildUp-icon4.1acd4dacd4ddf306c2e7f5da116b6137.svg",
     "static/media/BuildUp-icon1.svg": "/react-kamasatru/static/media/BuildUp-icon1.e13cef8e30c0472fc8b303cc0801113f.svg",
     "static/media/BuildUp-icon2.svg": "/react-kamasatru/static/media/BuildUp-icon2.469356592c7ce3b1abf53cca85e82fee.svg",
-    "main.de95e6f3.css.map": "/react-kamasatru/static/css/main.de95e6f3.css.map",
-    "main.811dae4d.js.map": "/react-kamasatru/static/js/main.811dae4d.js.map",
+    "main.f97d00cd.css.map": "/react-kamasatru/static/css/main.f97d00cd.css.map",
+    "main.16a22f9f.js.map": "/react-kamasatru/static/js/main.16a22f9f.js.map",
     "787.5c52664e.chunk.js.map": "/react-kamasatru/static/js/787.5c52664e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de95e6f3.css",
-    "static/js/main.811dae4d.js"
+    "static/css/main.f97d00cd.css",
+    "static/js/main.16a22f9f.js"
   ]
 }
