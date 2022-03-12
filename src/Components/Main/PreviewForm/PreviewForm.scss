@@ -40,7 +40,6 @@
     box-shadow: none;
     border-color: transparent;
     border-radius: 2px;
-    min-width: 280px;
     width: 100%;
   }
   &__input input {
@@ -66,4 +65,36 @@
 
   cursor: pointer;
   color: #5658dd;
+}
+@media (max-width: 640px) {
+  .preview-form {
+    &__block {
+      flex-wrap: wrap;
+      padding: 48px 16px;
+    }
+
+    &__slogan {
+      text-align: center;
+      margin: 0 auto 40px;
+    }
+    &__slogan h3 {
+      font-size: 24px;
+      line-height: 34px;
+      letter-spacing: -0.1px;
+    }
+
+    &__action {
+      width: 100%;
+    }
+  }
+  .action {
+    &__label {
+    }
+    &__input {
+    }
+    &__input input {
+    }
+  }
+  .icon {
+  }
 }

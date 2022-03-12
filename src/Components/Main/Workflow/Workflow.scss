@@ -50,3 +50,13 @@
   &__block {
   }
 }
+@media (max-width: 640px) {
+  .workflow {
+    &__block {
+      padding: 48px 0;
+    }
+    &__top {
+      padding-bottom: 48px;
+    }
+  }
+}

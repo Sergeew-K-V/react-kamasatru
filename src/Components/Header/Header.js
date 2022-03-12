@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDoorClosed } from '@fortawesome/free-solid-svg-icons'
 import navbarLogo from '../../img/Header/navbarLogo.svg'
 import '../../css/Header.css'
+import '../../css/AdaptiveHeader.css'
 
 function Header() {
   const [navbarActive, setNavbarActive] = useState(false)

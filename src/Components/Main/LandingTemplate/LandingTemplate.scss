@@ -51,7 +51,7 @@
     margin-top: 64px;
     justify-content: center;
   }
-  &__block {
+  &__block-video {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -105,40 +105,4 @@
   color: #5658dd;
 }
 .text {
-}
-
-@media (max-width: 641px) {
-  .landing {
-    &__block {
-      padding: 48px 0;
-    }
-
-    &__top {
-    }
-
-    &__title {
-      font-size: 44px;
-      line-height: 54px;
-    }
-
-    &__text {
-    }
-
-    &__btns {
-    }
-
-    &__btn {
-      &_get-started {
-      }
-
-      &_view-on-github {
-      }
-    }
-
-    &__bottom {
-    }
-
-    &__video {
-    }
-  }
 }

@@ -46,3 +46,12 @@
   background-size: auto;
   left: 50%;
 }
+
+@media (max-width: 640px) {
+  .workflow__block {
+    padding: 48px 0;
+  }
+  .workflow__top {
+    padding-bottom: 48px;
+  }
+}

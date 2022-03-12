@@ -5,8 +5,6 @@
     line-height: 22px;
   }
 }
-.container {
-}
 .flex {
   &__top {
     display: flex;
@@ -83,5 +81,61 @@
   }
   &__item a.active {
     color: #eceded;
+  }
+}
+@media (max-width: 640px) {
+  .footer {
+    &__block {
+      padding: 48px 0;
+      text-align: center;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .flex {
+    &__top {
+      flex-direction: column;
+    }
+
+    &__bottom {
+      flex-direction: column-reverse;
+    }
+  }
+  .top {
+    &__brand {
+      margin-bottom: 24px;
+    }
+    &__brand img {
+    }
+
+    &__social {
+    }
+
+    &__icons {
+    }
+
+    &__item {
+    }
+    &__item a {
+    }
+  }
+  .bottom {
+    &__copyright {
+    }
+
+    &__nickname {
+    }
+
+    &__nav {
+      margin-bottom: 24px;
+    }
+    &__nav ul {
+    }
+  }
+  .nav {
+    &__item {
+    }
+    &__item a {
+    }
   }
 }

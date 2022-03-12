@@ -23,3 +23,13 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+@media (max-width: 640px) {
+  .title-middle {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .build-up__block {
+    padding-bottom: 48px;
+  }
+}

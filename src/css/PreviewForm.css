@@ -41,7 +41,6 @@
           box-shadow: none;
   border-color: transparent;
   border-radius: 2px;
-  min-width: 280px;
   width: 100%;
 }
 
@@ -60,4 +59,24 @@
           transform: translate(50%, -50%);
   cursor: pointer;
   color: #5658dd;
+}
+
+@media (max-width: 640px) {
+  .preview-form__block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 48px 16px;
+  }
+  .preview-form__slogan {
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+  .preview-form__slogan h3 {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.1px;
+  }
+  .preview-form__action {
+    width: 100%;
+  }
 }

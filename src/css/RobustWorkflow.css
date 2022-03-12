@@ -28,3 +28,11 @@
 .Robust__title {
   margin-bottom: 8px;
 }
+
+@media (max-width: 640px) {
+  .Robust__text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+  }
+}

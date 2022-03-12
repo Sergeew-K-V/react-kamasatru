@@ -1,0 +1,53 @@
+@media (max-width: 640px) {
+  .landing {
+    &__block {
+      padding: 48px 0;
+    }
+
+    &__top {
+    }
+
+    &__title {
+      font-size: 44px;
+      line-height: 54px;
+    }
+
+    &__text {
+    }
+
+    &__btns {
+    }
+
+    &__btn {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      &_get-started {
+        width: 100%;
+        max-width: 280px;
+        margin: 8px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        font-weight: 600;
+      }
+
+      &_view-on-github {
+        width: 100%;
+        max-width: 280px;
+        margin: 8px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        font-weight: 600;
+      }
+    }
+
+    &__bottom {
+      margin-top: 48px;
+    }
+
+    &__video {
+    }
+  }
+}

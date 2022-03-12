@@ -34,6 +34,15 @@
   margin-bottom: -12px;
 }
 
+@media (max-width: 640px) {
+  .customer__block {
+    padding: 48px 0;
+  }
+  .block__top {
+    padding-bottom: 48px;
+  }
+}
+
 .top__title {
   margin-bottom: 16px;
 }

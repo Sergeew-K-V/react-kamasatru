@@ -57,7 +57,7 @@
           justify-content: center;
 }
 
-.landing__block {
+.landing__block-video {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -92,14 +92,4 @@
 
 .span-bold {
   color: #5658dd;
-}
-
-@media (max-width: 641px) {
-  .landing__block {
-    padding: 48px 0;
-  }
-  .landing__title {
-    font-size: 44px;
-    line-height: 54px;
-  }
 }

@@ -31,6 +31,18 @@
     margin-bottom: -12px;
   }
 }
+@media (max-width: 640px) {
+  .customer {
+    &__block {
+      padding: 48px 0;
+    }
+  }
+  .block {
+    &__top {
+      padding-bottom: 48px;
+    }
+  }
+}
 
 .top {
   &__title {

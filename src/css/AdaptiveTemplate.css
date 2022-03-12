@@ -1,0 +1,40 @@
+@media (max-width: 640px) {
+  .landing__block {
+    padding: 48px 0;
+  }
+  .landing__title {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .landing__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .landing__btn_get-started {
+    width: 100%;
+    max-width: 280px;
+    margin: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+  }
+  .landing__btn_view-on-github {
+    width: 100%;
+    max-width: 280px;
+    margin: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+  }
+  .landing__bottom {
+    margin-top: 48px;
+  }
+}

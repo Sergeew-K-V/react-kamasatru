@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../../css/LandingTemplate.css'
 import videoMacTyping from '../../../video/TypingOnAMacbook.mp4'
+import '../../../css/AdaptiveTemplate.css'
 
 function LandingTemplate() {
   return (
@@ -38,7 +39,7 @@ function LandingTemplate() {
             </div>
           </div>
           <div className='landing__bottom'>
-            <div className='landing__block'>
+            <div className='landing__block-video'>
               <video
                 className='landing__video'
                 src={videoMacTyping}
