@@ -4,8 +4,6 @@ import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter } from 'react-router-dom'
-
-// https://classic-mebel.com/
 // https://open.cruip.com/#0
 
 function App() {

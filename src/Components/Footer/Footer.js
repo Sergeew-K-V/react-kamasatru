@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import '../../css/Footer.css'
 import brand from '../../img/Header/navbarLogo.svg'
 import { NavLink } from 'react-router-dom'
+import AOS from 'aos'
 
 function Footer() {
+  useEffect(() => {
+    AOS.init({ duration: 2000, delay: 1000 })
+  })
   return (
     <footer className='footer'>
       <div className='container'>
-        <div className='footer__block'>
+        <div className='footer__block' data-aos='fade-down' data-aos-duration='2000'>
           <div className='flex__top'>
             <div className='top__brand'>
               <img src={brand} alt='brand-image' />

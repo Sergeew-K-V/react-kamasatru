@@ -1,10 +1,19 @@
-import React from 'react'
+import AOS from 'aos'
+import React, { useEffect } from 'react'
 import '../../../../css/DataDriven.css'
 
 function DataDriven({ count, image }) {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  })
   if (count % 2 !== 0) {
     return (
-      <div className='datadriven'>
+      <div
+        className='datadriven'
+        data-aos='fade-right'
+        data-aos-duration='2000'
+        data-aos-delay='800'
+      >
         <div className='datadriven__block'>
           <div className='datadriven__left_notzero'>
             <div className='left__top before-top'>LIGHTNING FAST WORKFLOW</div>
@@ -23,7 +32,12 @@ function DataDriven({ count, image }) {
     )
   } else {
     return (
-      <div className='datadriven'>
+      <div
+        className='datadriven'
+        data-aos='fade-left'
+        data-aos-duration='2000'
+        data-aos-delay='800'
+      >
         <div className='datadriven__block'>
           <div className='datadriven__left_zero'>
             <img src={image} alt='workflow-image' />

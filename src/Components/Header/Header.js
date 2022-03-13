@@ -1,15 +1,19 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDoorClosed } from '@fortawesome/free-solid-svg-icons'
 import navbarLogo from '../../img/Header/navbarLogo.svg'
 import '../../css/Header.css'
 import '../../css/AdaptiveHeader.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Header() {
   const [navbarActive, setNavbarActive] = useState(false)
-
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
-    <header className='navbar'>
+    <header data-aos='fade-right' className='navbar'>
       <div className='container'>
         <div className='navbar__flex'>
           <a href='#' className='navbar__link_logo navbar__item'>

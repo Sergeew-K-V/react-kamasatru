@@ -1,13 +1,17 @@
-import React from 'react'
+import AOS from 'aos'
+import React, { useEffect } from 'react'
 import '../../../css/Customer.css'
 import CustomerCollumn from './CustomerCollumn/CustomerCollumn'
 
 function Customer() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  })
   return (
     <section className='customer'>
       <div className='container'>
         <div className='customer__block'>
-          <div className='block__top'>
+          <div className='block__top' data-aos='fade-left' data-aos-duration='2000'>
             <div className='container-smallest'>
               <div className='top__title title-middle'>Customer testimonials</div>
               <div className='top__text text'>

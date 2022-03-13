@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../../css/LandingTemplate.css'
 import videoMacTyping from '../../../video/TypingOnAMacbook.mp4'
 import '../../../css/AdaptiveTemplate.css'
+import AOS from 'aos'
 
 function LandingTemplate() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
     <section className='landing'>
       <div className='container-small'>
         <div className='landing__block'>
-          <div className='landing__top'>
+          <div className='landing__top' data-aos='fade-left' data-aos-duration='4000'>
             <h1 className='landing__title title-big '>
               Landing template for
               <span className='span-bold'> startups</span>
@@ -38,7 +42,7 @@ function LandingTemplate() {
               </div>
             </div>
           </div>
-          <div className='landing__bottom'>
+          <div className='landing__bottom' data-aos='fade-right' data-aos-duration='4000'>
             <div className='landing__block-video'>
               <video
                 className='landing__video'

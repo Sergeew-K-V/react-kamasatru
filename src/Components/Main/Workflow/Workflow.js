@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../../css/Workflow.css'
 import DataDriven from './DataDriven/DataDriven'
 import workFlow_1 from '../../../img/Workflow/workflow_1.png'
 import workFlow_2 from '../../../img/Workflow/workflow_2.png'
 import workFlow_3 from '../../../img/Workflow/workflow_3.png'
+import AOS from 'aos'
 
 function Workflow() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
     <section className='workflow'>
       <div className='container'>
         <div className='workflow__block'>
-          <div className='workflow__top'>
+          <div className='workflow__top' data-aos='fade-left' data-aos-duration='2000'>
             <div className='container-smallest'>
               <h2 className='workflow__title title-middle'>Workflow that just works</h2>
               <p className='workflow__text text'>

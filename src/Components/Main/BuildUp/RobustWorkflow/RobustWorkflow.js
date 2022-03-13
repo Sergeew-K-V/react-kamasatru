@@ -1,9 +1,13 @@
-import React from 'react'
+import AOS from 'aos'
+import React, { useEffect } from 'react'
 import '../../../../css/RobustWorkflow.css'
 
 function RobustWorkflow(props) {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
-    <div className='Robust__block'>
+    <div data-aos='fade-right' className='Robust__block'>
       <div className='Robust__flex'>
         <div className='Robust__top'>
           <img src={props.image} alt='picture workflow' />

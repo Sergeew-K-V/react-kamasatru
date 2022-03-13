@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import RobustWorkflow from './RobustWorkflow/RobustWorkflow'
 import icon1 from '../../../img/Build-Up/BuildUp-icon1.svg'
 import icon2 from '../../../img/Build-Up/BuildUp-icon2.svg'
@@ -7,13 +7,17 @@ import icon4 from '../../../img/Build-Up/BuildUp-icon4.svg'
 import icon5 from '../../../img/Build-Up/BuildUp-icon5.svg'
 import icon6 from '../../../img/Build-Up/BuildUp-icon6.svg'
 import '../../../css/BuildUp.css'
+import AOS from 'aos'
 
 function BuildUp() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
     <section className='build-up'>
       <div className='container'>
         <div className='build-up__block'>
-          <div className='build-up__top'>
+          <div className='build-up__top' data-aos='fade-right' data-aos-duration='4000'>
             <div className='container-smallest'>
               <h2 className='build-up__title title-middle'>Build up the whole picture</h2>
               <p>
