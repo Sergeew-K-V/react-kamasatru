@@ -14,7 +14,7 @@ function Workflow() {
     <section className='workflow'>
       <div className='container'>
         <div className='workflow__block'>
-          <div className='workflow__top' data-aos='fade-left' data-aos-duration='2000'>
+          <div className='workflow__top' data-aos='fade-down' data-aos-duration='2000'>
             <div className='container-smallest'>
               <h2 className='workflow__title title-middle'>Workflow that just works</h2>
               <p className='workflow__text text'>

@@ -13,7 +13,7 @@ function Header() {
     AOS.init({ duration: 2000 })
   }, [])
   return (
-    <header data-aos='fade-right' className='navbar'>
+    <header data-aos='fade-down' className='navbar'>
       <div className='container'>
         <div className='navbar__flex'>
           <a href='#' className='navbar__link_logo navbar__item'>

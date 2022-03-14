@@ -10,7 +10,7 @@ function DataDriven({ count, image }) {
     return (
       <div
         className='datadriven'
-        data-aos='fade-right'
+        data-aos='fade-down'
         data-aos-duration='2000'
         data-aos-delay='800'
       >
@@ -34,7 +34,7 @@ function DataDriven({ count, image }) {
     return (
       <div
         className='datadriven'
-        data-aos='fade-left'
+        data-aos='fade-down'
         data-aos-duration='2000'
         data-aos-delay='800'
       >

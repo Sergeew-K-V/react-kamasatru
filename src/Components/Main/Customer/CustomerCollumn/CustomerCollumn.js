@@ -8,7 +8,7 @@ function CustomerCollumn(props) {
   })
   return (
     <div className='customer-collumn'>
-      <div className='customer-collumn__block' data-aos='fade-right' data-aos-duration='2000'>
+      <div className='customer-collumn__block' data-aos='fade-down' data-aos-duration='2000'>
         <div className='customer-collumn__top'>
           <p className='top__text'>
             — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat

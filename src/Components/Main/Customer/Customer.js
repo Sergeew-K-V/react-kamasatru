@@ -11,7 +11,7 @@ function Customer() {
     <section className='customer'>
       <div className='container'>
         <div className='customer__block'>
-          <div className='block__top' data-aos='fade-left' data-aos-duration='2000'>
+          <div className='block__top' data-aos='fade-down' data-aos-duration='2000'>
             <div className='container-smallest'>
               <div className='top__title title-middle'>Customer testimonials</div>
               <div className='top__text text'>

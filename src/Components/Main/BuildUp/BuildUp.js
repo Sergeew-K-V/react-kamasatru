@@ -17,7 +17,7 @@ function BuildUp() {
     <section className='build-up'>
       <div className='container'>
         <div className='build-up__block'>
-          <div className='build-up__top' data-aos='fade-right' data-aos-duration='4000'>
+          <div className='build-up__top' data-aos='fade-down' data-aos-duration='2000'>
             <div className='container-smallest'>
               <h2 className='build-up__title title-middle'>Build up the whole picture</h2>
               <p>

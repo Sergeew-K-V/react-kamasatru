@@ -7,7 +7,7 @@ function RobustWorkflow(props) {
     AOS.init({ duration: 2000 })
   }, [])
   return (
-    <div data-aos='fade-right' className='Robust__block'>
+    <div data-aos='fade-down' className='Robust__block'>
       <div className='Robust__flex'>
         <div className='Robust__top'>
           <img src={props.image} alt='picture workflow' />
