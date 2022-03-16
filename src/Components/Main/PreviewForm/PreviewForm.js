@@ -6,12 +6,12 @@ import AOS from 'aos'
 
 function PreviewForm() {
   useEffect(() => {
-    AOS.init({ duration: 2000 })
+    AOS.init()
   }, [])
   return (
     <section className='preview-form'>
       <div className='container'>
-        <div className='preview-form__block' data-aos='fade-down' data-aos-duration='2000'>
+        <div className='preview-form__block' data-aos='fade-right'>
           <div className='preview-form__slogan'>
             <h3>For previewing layouts and visual?</h3>
           </div>

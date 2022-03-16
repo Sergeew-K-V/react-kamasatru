@@ -6,13 +6,13 @@ import AOS from 'aos'
 
 function LandingTemplate() {
   useEffect(() => {
-    AOS.init({ duration: 2000 })
+    AOS.init()
   }, [])
   return (
     <section className='landing'>
       <div className='container-small'>
         <div className='landing__block'>
-          <div className='landing__top' data-aos='fade-down' data-aos-duration='2000'>
+          <div className='landing__top' data-aos='fade-left'>
             <h1 className='landing__title title-big '>
               Landing template for
               <span className='span-bold'> startups</span>
@@ -42,7 +42,7 @@ function LandingTemplate() {
               </div>
             </div>
           </div>
-          <div className='landing__bottom' data-aos='fade-down' data-aos-duration='2000'>
+          <div className='landing__bottom' data-aos='fade-right'>
             <div className='landing__block-video'>
               <video
                 className='landing__video'

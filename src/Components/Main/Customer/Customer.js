@@ -5,13 +5,13 @@ import CustomerCollumn from './CustomerCollumn/CustomerCollumn'
 
 function Customer() {
   useEffect(() => {
-    AOS.init({ duration: 2000 })
+    AOS.init()
   })
   return (
     <section className='customer'>
       <div className='container'>
         <div className='customer__block'>
-          <div className='block__top' data-aos='fade-down' data-aos-duration='2000'>
+          <div className='block__top' data-aos='fade-right'>
             <div className='container-smallest'>
               <div className='top__title title-middle'>Customer testimonials</div>
               <div className='top__text text'>

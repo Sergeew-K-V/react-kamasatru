@@ -6,10 +6,10 @@ import Footer from './Components/Footer/Footer'
 import { BrowserRouter } from 'react-router-dom'
 // https://open.cruip.com/#0
 
-function App() {
+function App(props) {
   return (
     <BrowserRouter>
-      <Header></Header>
+      <Header headerData={props.state.header}></Header>
       <Main></Main>
       <Footer></Footer>
     </BrowserRouter>

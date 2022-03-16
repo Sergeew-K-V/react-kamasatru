@@ -4,10 +4,10 @@ import '../../../../css/RobustWorkflow.css'
 
 function RobustWorkflow(props) {
   useEffect(() => {
-    AOS.init({ duration: 2000 })
+    AOS.init()
   }, [])
   return (
-    <div data-aos='fade-down' className='Robust__block'>
+    <div data-aos='fade-right' className='Robust__block'>
       <div className='Robust__flex'>
         <div className='Robust__top'>
           <img src={props.image} alt='picture workflow' />

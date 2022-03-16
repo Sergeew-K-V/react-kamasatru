@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body[data-aos-duration='5000'] [data-aos],
-[data-aos][data-aos][data-aos-duration='5000'] {
-  transition-duration: 5000ms;
-}
-body[data-aos-duration='4000'] [data-aos],
-[data-aos][data-aos][data-aos-duration='4000'] {
-  transition-duration: 4000ms;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .container {
   max-width: 1128px;
   margin: 0 auto;

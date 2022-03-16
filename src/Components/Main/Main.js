@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import BuildUp from './BuildUp/BuildUp'
 import Customer from './Customer/Customer'
 import LandingTemplate from './LandingTemplate/LandingTemplate'

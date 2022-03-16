@@ -8,7 +8,7 @@ import AOS from 'aos'
 
 function Footer() {
   useEffect(() => {
-    AOS.init({ duration: 2000, delay: 1000 })
+    AOS.init({ duration: 2000, delay: 2000 })
   })
   return (
     <footer className='footer'>

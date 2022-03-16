@@ -4,11 +4,11 @@ import '../../../../css/CustomerCollumn.css'
 
 function CustomerCollumn(props) {
   useEffect(() => {
-    AOS.init({ duration: 2000 })
+    AOS.init()
   })
   return (
     <div className='customer-collumn'>
-      <div className='customer-collumn__block' data-aos='fade-down' data-aos-duration='2000'>
+      <div className='customer-collumn__block' data-aos='fade-left'>
         <div className='customer-collumn__top'>
           <p className='top__text'>
             — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
