@@ -1,12 +1,11 @@
 import React, { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import '../../css/Footer.css'
 import brand from '../../img/Header/navbarLogo.svg'
 import { NavLink } from 'react-router-dom'
 import AOS from 'aos'
 
-function Footer() {
+function Footer(props) {
   useEffect(() => {
     AOS.init()
   })
@@ -20,36 +19,13 @@ function Footer() {
             </div>
             <div className='top__social'>
               <ul className='top__icons'>
-                <li className='top__item'>
-                  <a href='/#1'>
-                    <FontAwesomeIcon
-                      className='icons'
-                      width={'16px'}
-                      height={'16px'}
-                      icon={faFacebookF}
-                    />
-                  </a>
-                </li>
-                <li className='top__item'>
-                  <a href='/#2'>
-                    <FontAwesomeIcon
-                      className='icons'
-                      width={'16px'}
-                      height={'16px'}
-                      icon={faTwitter}
-                    />
-                  </a>
-                </li>
-                <li className='top__item'>
-                  <a href='/#3'>
-                    <FontAwesomeIcon
-                      className='icons'
-                      width={'16px'}
-                      height={'16px'}
-                      icon={faInstagram}
-                    />
-                  </a>
-                </li>
+                {props.footerData.arrayOfIcons.map((el) => (
+                  <li className='top__item'>
+                    <a href='/#1'>
+                      <FontAwesomeIcon className='icons' width={'16px'} height={'16px'} icon={el} />
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

@@ -11,7 +11,7 @@ function App(props) {
     <BrowserRouter>
       <Header headerData={props.state.header}></Header>
       <Main></Main>
-      <Footer></Footer>
+      <Footer footerData={props.state.footer}></Footer>
     </BrowserRouter>
   )
 }
