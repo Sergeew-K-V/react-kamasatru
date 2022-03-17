@@ -6,6 +6,7 @@ let state = {
   //   main: {},
   footer: {
     arrayOfIcons: [faTwitter, faFacebookF, faInstagram],
+    arrayOfLinks: ['Contact', 'About us', `FAQ's`, 'Support'],
   },
 }
 

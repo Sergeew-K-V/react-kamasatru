@@ -19,7 +19,7 @@ function Footer(props) {
             </div>
             <div className='top__social'>
               <ul className='top__icons'>
-                {props.footerData.arrayOfIcons.map((el) => (
+                {props.footer.arrayOfIcons.map((el) => (
                   <li className='top__item'>
                     <a href='/#1'>
                       <FontAwesomeIcon className='icons' width={'16px'} height={'16px'} icon={el} />
@@ -35,7 +35,17 @@ function Footer(props) {
             </div>
             <nav className='bottom__nav'>
               <ul>
-                <li className='nav__item'>
+                {props.footer.arrayOfLinks.map((el) => (
+                  <li className='nav__item'>
+                    <NavLink
+                      to={`/${el}`.toLowerCase()}
+                      className={(navData) => (navData.isActive ? 'active' : '')}
+                    >
+                      {el}
+                    </NavLink>
+                  </li>
+                ))}
+                {/* <li className='nav__item'>
                   <NavLink
                     to='/contact'
                     className={(navData) => (navData.isActive ? 'active' : '')}
@@ -60,7 +70,7 @@ function Footer(props) {
                   >
                     Support
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

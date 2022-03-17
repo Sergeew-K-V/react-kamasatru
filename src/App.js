@@ -9,9 +9,9 @@ import { BrowserRouter } from 'react-router-dom'
 function App(props) {
   return (
     <BrowserRouter>
-      <Header headerData={props.state.header}></Header>
+      <Header header={props.state.header}></Header>
       <Main></Main>
-      <Footer footerData={props.state.footer}></Footer>
+      <Footer footer={props.state.footer}></Footer>
     </BrowserRouter>
   )
 }

@@ -5,7 +5,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function Header(props) {
-  const [navbarActive, setNavbarActive] = useState(props.headerData.activeState)
+  const [navbarActive, setNavbarActive] = useState(props.header.activeState)
   useEffect(() => {
     AOS.init({ duration: 1000 })
   }, [])
@@ -14,7 +14,7 @@ function Header(props) {
       <div className='container'>
         <div className='navbar__flex'>
           <a href='#' className='navbar__link_logo navbar__item'>
-            <img src={props.headerData.logo} alt='icon' className='navbar__logo' />
+            <img src={props.header.logo} alt='icon' className='navbar__logo' />
           </a>
           <button
             className={navbarActive ? 'navbar__btn-burger active' : 'navbar__btn-burger'}
