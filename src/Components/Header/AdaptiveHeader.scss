@@ -73,7 +73,7 @@
   .navbar__btn-burger.active::after {
     bottom: 50%;
     transform: rotate(405deg) translate(0, 50%);
-    margin-bottom: -1px; //here was added margin - but it's strange anyway
+    margin-bottom: -1px;
   }
   .navbar__btn-burger.active::before {
     top: 50%;
