@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react'
 import '../../../css/Workflow.css'
 import DataDriven from './DataDriven/DataDriven'
-import workFlow_1 from '../../../img/Workflow/workflow_1.png'
-import workFlow_2 from '../../../img/Workflow/workflow_2.png'
-import workFlow_3 from '../../../img/Workflow/workflow_3.png'
 import AOS from 'aos'
 
-function Workflow() {
+function Workflow(props) {
   useEffect(() => {
     AOS.init()
   }, [])
@@ -25,9 +22,9 @@ function Workflow() {
           </div>
           <div className='workflow__bottom'>
             <div className='bottom__block'>
-              <DataDriven count={1} image={workFlow_1}></DataDriven>
-              <DataDriven count={2} image={workFlow_2}></DataDriven>
-              <DataDriven count={3} image={workFlow_3}></DataDriven>
+              {props.workflowProps.arrayOfDataDriven.map((el) => (
+                <DataDriven count={el.count} image={el.image}></DataDriven>
+              ))}
             </div>
           </div>
         </div>

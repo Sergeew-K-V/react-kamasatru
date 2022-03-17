@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import '../../../css/PreviewForm.css'
 import AOS from 'aos'
 
-function PreviewForm() {
+function PreviewForm(props) {
   useEffect(() => {
     AOS.init()
   }, [])
@@ -19,7 +18,7 @@ function PreviewForm() {
             <label className='action__label'></label>
             <div className='action__input'>
               <input type='email' placeholder={`Your best email`} />
-              <FontAwesomeIcon icon={faArrowRight} className='icon' />
+              <FontAwesomeIcon icon={props.formProps.icon} className='icon' />
             </div>
           </div>
         </div>

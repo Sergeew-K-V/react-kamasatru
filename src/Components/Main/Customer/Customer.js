@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import '../../../css/Customer.css'
 import CustomerCollumn from './CustomerCollumn/CustomerCollumn'
 
-function Customer() {
+function Customer(props) {
   useEffect(() => {
     AOS.init()
   })
@@ -21,9 +21,12 @@ function Customer() {
             </div>
           </div>
           <div className='block__bottom'>
-            <CustomerCollumn nickname={`Roman Level`}></CustomerCollumn>
+            {props.customerProps.arrayOfCustomersCollumn.map((el) => (
+              <CustomerCollumn nickname={`${el.name}`}></CustomerCollumn>
+            ))}
+            {/* <CustomerCollumn nickname={`Roman Level`}></CustomerCollumn>
             <CustomerCollumn nickname={`Diana Rynzhuk`}></CustomerCollumn>
-            <CustomerCollumn nickname={`Ben Stafford`}></CustomerCollumn>
+            <CustomerCollumn nickname={`Ben Stafford`}></CustomerCollumn> */}
           </div>
         </div>
       </div>

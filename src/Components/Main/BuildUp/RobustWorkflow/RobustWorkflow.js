@@ -7,14 +7,14 @@ function RobustWorkflow(props) {
     AOS.init()
   }, [])
   return (
-    <div data-aos='fade-right' className='Robust__block'>
-      <div className='Robust__flex'>
-        <div className='Robust__top'>
+    <div data-aos='fade-right' className='robust__block'>
+      <div className='robust__flex'>
+        <div className='robust__top'>
           <img src={props.image} alt='picture workflow' />
         </div>
-        <div className='Robust__bottom'>
-          <h4 className='Robust__title title'>Robust Workflow</h4>
-          <p className='Robust__text text'>
+        <div className='robust__bottom'>
+          <h4 className='robust__title title'>Robust Workflow</h4>
+          <p className='robust__text text'>
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
             nulla pariatur. Excepteur sint occaecat cupidatat.
           </p>

@@ -1,4 +1,4 @@
-.Robust {
+.robust {
   &__block {
     flex-basis: 317px;
     max-width: 317px;
@@ -26,7 +26,7 @@
   }
 }
 @media (max-width: 640px) {
-  .Robust__text {
+  .robust__text {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.1px;

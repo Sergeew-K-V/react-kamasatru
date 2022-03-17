@@ -1,15 +1,9 @@
 import React, { useEffect } from 'react'
 import RobustWorkflow from './RobustWorkflow/RobustWorkflow'
-import icon1 from '../../../img/Build-Up/BuildUp-icon1.svg'
-import icon2 from '../../../img/Build-Up/BuildUp-icon2.svg'
-import icon3 from '../../../img/Build-Up/BuildUp-icon1.svg'
-import icon4 from '../../../img/Build-Up/BuildUp-icon4.svg'
-import icon5 from '../../../img/Build-Up/BuildUp-icon5.svg'
-import icon6 from '../../../img/Build-Up/BuildUp-icon6.svg'
 import '../../../css/BuildUp.css'
 import AOS from 'aos'
 
-function BuildUp() {
+function BuildUp(props) {
   useEffect(() => {
     AOS.init()
   }, [])
@@ -27,12 +21,9 @@ function BuildUp() {
             </div>
           </div>
           <div className='build-up__bottom'>
-            <RobustWorkflow image={icon1}></RobustWorkflow>
-            <RobustWorkflow image={icon2}></RobustWorkflow>
-            <RobustWorkflow image={icon3}></RobustWorkflow>
-            <RobustWorkflow image={icon4}></RobustWorkflow>
-            <RobustWorkflow image={icon5}></RobustWorkflow>
-            <RobustWorkflow image={icon6}></RobustWorkflow>
+            {props.buildUpProps.arrayOfIcons.map((el) => (
+              <RobustWorkflow image={el}></RobustWorkflow>
+            ))}
           </div>
         </div>
       </div>

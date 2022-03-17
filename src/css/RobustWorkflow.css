@@ -1,4 +1,4 @@
-.Robust__block {
+.robust__block {
   -ms-flex-preferred-size: 317px;
       flex-basis: 317px;
   max-width: 317px;
@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.Robust__flex {
+.robust__flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,21 +16,21 @@
           flex-direction: column;
 }
 
-.Robust__top {
+.robust__top {
   margin-bottom: 16px;
 }
 
-.Robust__top img {
+.robust__top img {
   border-radius: 50%;
   background-color: #5658dd;
 }
 
-.Robust__title {
+.robust__title {
   margin-bottom: 8px;
 }
 
 @media (max-width: 640px) {
-  .Robust__text {
+  .robust__text {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.1px;

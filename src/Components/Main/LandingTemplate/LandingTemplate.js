@@ -53,17 +53,6 @@ function LandingTemplate() {
                 muted
               ></video>
             </div>
-
-            {/* <a
-              href='https://player.vimeo.com/video/174002812'
-              target='_blank'
-              className='landing__video'
-            >
-              <img
-                src='https://open.cruip.com/static/media/video-placeholder.a622fc5d.jpg'
-                alt='clip'
-              />
-            </a> */}
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ function App(props) {
   return (
     <BrowserRouter>
       <Header header={props.state.header}></Header>
-      <Main></Main>
+      <Main main={props.state.main}></Main>
       <Footer footer={props.state.footer}></Footer>
     </BrowserRouter>
   )
