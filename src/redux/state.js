@@ -1,6 +1,6 @@
 import navbarLogo from '../img/Header/navbarLogo.svg'
 let state = {
-  header: { logo: navbarLogo },
+  header: { logo: navbarLogo, activeState: false },
   //   main: {},
   //   footer: {},
 }

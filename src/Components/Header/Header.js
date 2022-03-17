@@ -5,11 +5,10 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function Header(props) {
-  const [navbarActive, setNavbarActive] = useState(false)
+  const [navbarActive, setNavbarActive] = useState(props.headerData.activeState)
   useEffect(() => {
     AOS.init({ duration: 1000 })
   }, [])
-
   return (
     <header data-aos='fade-right' className='navbar'>
       <div className='container'>

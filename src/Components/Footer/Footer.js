@@ -8,12 +8,12 @@ import AOS from 'aos'
 
 function Footer() {
   useEffect(() => {
-    AOS.init({ duration: 2000, delay: 2000 })
+    AOS.init()
   })
   return (
     <footer className='footer'>
       <div className='container'>
-        <div className='footer__block' data-aos='fade-down' data-aos-duration='2000'>
+        <div className='footer__block' data-aos='fade-down'>
           <div className='flex__top'>
             <div className='top__brand'>
               <img src={brand} alt='brand-image' />
