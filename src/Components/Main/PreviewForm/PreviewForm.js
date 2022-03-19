@@ -7,6 +7,13 @@ function PreviewForm(props) {
   useEffect(() => {
     AOS.init()
   }, [])
+
+  const inputEmail = React.createRef()
+
+  const sendEmail = () => {
+    const text = inputEmail.current.value
+    props.formProps.message(text)
+  }
   return (
     <section className='preview-form'>
       <div className='container'>
@@ -17,8 +24,8 @@ function PreviewForm(props) {
           <div className='preview-form__action'>
             <label className='action__label'></label>
             <div className='action__input'>
-              <input type='email' placeholder={`Your best email`} />
-              <FontAwesomeIcon icon={props.formProps.icon} className='icon' />
+              <input type='email' placeholder={`Your best email`} ref={inputEmail} />
+              <FontAwesomeIcon icon={props.formProps.icon} className='icon' onClick={sendEmail} />
             </div>
           </div>
         </div>

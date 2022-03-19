@@ -14,7 +14,12 @@ import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-sv
 let state = {
   header: { logo: navbarLogo, activeState: false },
   main: {
-    previewForm: { icon: faArrowRight },
+    previewForm: {
+      icon: faArrowRight,
+      message(message) {
+        alert(`${message}`)
+      },
+    },
     workflow: {
       arrayOfDataDriven: [
         { count: 1, image: workFlow_1 },
