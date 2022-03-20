@@ -1,18 +1,14 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../../../css/PreviewForm.css'
-import AOS from 'aos'
 
 function PreviewForm(props) {
-  useEffect(() => {
-    AOS.init()
-  }, [])
-
-  const inputEmail = React.createRef()
+  const inputEmail = useRef(null)
 
   const sendEmail = () => {
     const text = inputEmail.current.value
     props.formProps.message(text)
+    inputEmail.current.value = ''
   }
   return (
     <section className='preview-form'>
